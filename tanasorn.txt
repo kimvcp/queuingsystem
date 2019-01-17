@@ -1,0 +1,16 @@
+as a customer
+- I don't want to get a queue and wait in the Bank.
+so I can to go to another place and back when it my queue.
+
+- I want to get a queue outside the Bank.
+so I can go to the bank without waiting.
+
+as a employee
+- I want to see who is queuing now, people is in the queue or not.
+so I will send a notification to customer when it nearly his queue.
+
+
+
+
+
+
