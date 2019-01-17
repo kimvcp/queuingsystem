@@ -1,6 +1,6 @@
 As a bank 
 
-I can increase the number of bank's employers in order to decrease the waiting time of customers and make
+I can increase the number of bank's employers in order to decrease the waiting time of customers and
 so make the traffic fast.
 
 
