@@ -11,5 +11,5 @@ I want to see a estimated waiting time for the queue
 so that I can judge how much time I have until my turn.
 
 As a bank clerk
-I want to be able to skip people that don't show up
+I want to be able to skip customers that don't show up
 so that I don't have to wait and can move on to the next customer.
