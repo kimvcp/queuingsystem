@@ -1,0 +1,11 @@
+As a bank customer
+I want to be able to book a position in the queue online
+so that when I arrive at the bank I won't have to wait as long.
+
+As a bank customer
+I want to be notified when my turn in the queue is upcoming
+so that I can get to the bank in time for my turn.
+
+As a bank customer
+I want to see a estimated waiting time for the queue
+so that I can judge how much time I have until my turn.
