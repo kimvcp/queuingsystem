@@ -17,3 +17,7 @@ so that I don't have to wait and can move on to the next customer.
 As a bank customer
 I want to be able see a banker imedietly for security issues
 so that I can solve critical problems quickly.
+
+As a bank clerk
+I want to be able to stop reciving customers from the queue
+so that I can go on break or finish my shift.
