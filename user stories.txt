@@ -1,1 +1,8 @@
-bank's file
+As a customer
+When I receive a queue number, I want to know an estimated time when my queue will be called.
+
+As a bank employee
+I can input my task duration.
+
+As a bank employee
+I can see customer's requests.
