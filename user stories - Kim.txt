@@ -1,8 +1,13 @@
 Bank queuing system
 
 As a customer
-I want to get a notification from bank staff when my queue is next
+I want to get a notification from bank staff when my queue is next 
 so that I can get myself ready for my business.
 
-As a customer
-I want to 
+As a bank staff
+I want to see the total waiting customer in my queue 
+so that I can estimate the total time of working. 
+
+As a bank staff
+I want to have a time count for each customer's business
+so that I can skip the customer who isn't queuing.
