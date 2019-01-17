@@ -1,0 +1,11 @@
+As a customer
+When I receive a queue number, I want to know an estimated time when my queue will be called.
+So that I can do something to wait for my queue.
+
+As a bank employee
+I can input my task duration.
+So customer know the exact time to come.
+
+As a bank employee
+I can see customer's requests.
+So that I can prepare to execute their tasks.
