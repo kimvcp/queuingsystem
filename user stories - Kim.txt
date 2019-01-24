@@ -1,8 +1,28 @@
 Bank queuing system
 
 As a customer
-I want to get a notification from bank staff when my queue is next
+I want to get a notification from bank staff when my queue is next 
 so that I can get myself ready for my business.
 
-As a customer
-I want to 
+requirements (functional, non-functional)
+1) The product shall send the notification from bank staff to the customer.
+2) The product shall update the names real-time as soon as the customer is being called.
+3) The product shall remove the names of those who finished queuing.
+
+As a bank staff
+I want to see the list of the total waiting customers in my queue 
+so that I can estimate the total time of working. 
+
+requirements (functional, non-functional)
+1) The product shall show the total waiting customer to bank staff. 
+2) The product shall count the amount of queuing time for each customer.
+3) The product shall remove the name of those who are called.
+
+As a bank staff
+I want to have a timer count down for each customer's business
+so that I can skip the customer who isn't waiting for queuing anymore.
+
+requirements (functional, non-functional)
+1) The product shall count from 5 to 0 seconds for each customer and skip him/her when the timer stops. 
+2) The product shall remove the name of those who are called or skipped.
+3) The product shall display the timer screen so the customer can see their time left.

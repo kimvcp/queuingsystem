@@ -1,9 +1,0 @@
-As a bank 
-
-I can increase the number of bank's employers in order to decrease the waiting time of customers and make
-so make the traffic fast.
-
-
-As a customer 
-
-I can make an appointment in advance online in order to avoid wasting time in a queue. 
