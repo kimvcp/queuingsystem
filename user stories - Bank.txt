@@ -2,10 +2,25 @@ As a customer
 When I receive a queue number, I want to know an estimated time when my queue will be called.
 So that I can do something to wait for my queue.
 
+requirements (functional, non-functional)
+1) The product shall make the queue realtime.
+2) The product shall notify customer when it is the customer queue.
+3) The product shall show average duration of the task per queue.
+
 As a bank employee
 I can input my task duration.
 So customer know the exact time to come.
 
+requirements (functional, non-functional)
+1) The product shall make the UI simple.
+2) The product shall calculate an average time that employee used per queue.
+3) The product shall keep all task from every queue for later use.
+
 As a bank employee
 I can see customer's requests.
 So that I can prepare to execute their tasks.
+
+requirements (functional, non-functional)
+1) The product shall make the UI efficient.
+2) The product shall show average duration for the request.
+3) The product shall manage queue efficiently.
