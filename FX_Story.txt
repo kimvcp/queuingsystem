@@ -1,6 +1,19 @@
 As a bank 
-I can increase the number of bank's employers in order to decrease the waiting time of customers and
-so make the traffic fast.
+I can increase the number of bank's employees in order to decrease the waiting time of customers and
+so that makes the traffic fast.
+
+requirements( functional, non-functional)
+
+1) the product shall minimize the service time of each customer
+2) the product shall take into account the average number of customers in order to define effectively the number of employees 
+3) the product shall take into account the type of service(the waiting time can depends on the type of service as well as the number of employees
 
 As a customer 
-I can make an appointment in advance online in order to avoid wasting time in a queue. 
+I can make an appointment in advance online 
+so that allows me to avoid wasting time in a queue. 
+
+requirements
+
+1) the product shall show the available days and times to make an appointment
+2) the product shall confirm the appointment by sending an e-mail etc, and prevent the customer one day in advance to make sure the appointment will happen
+3) the product shall take in account the reason for the appointment to offer good service and to make the appointment fast and effective
