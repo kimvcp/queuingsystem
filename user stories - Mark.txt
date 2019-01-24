@@ -1,24 +1,47 @@
 As a bank customer
-I want to be able to book a position in the queue online
-so that when I arrive at the bank I won't have to wait as long.
+I want to be able to book a position in the queue remotely
+so that when I arrive at the bank I won't have to wait as long and spend 
+less time at the bank.
+
+The software shall be able to take remote queue positions from 
+customers.
+The software shall give a number in queue to the customer.
+The software shall sync the number with physical queue in bank to
+reserve the spot for the customer.
 
 As a bank customer
-I want to be notified when my turn in the queue is upcoming
-so that I can get to the bank in time for my turn.
+I want to be notified when my turn in the queue is upcoming and the time 
+remaining so that I can get to the bank in time for my turn and not be 
+skipped.
 
-As a bank customer
-I want to see a estimated waiting time for the queue
-so that I can judge how much time I have until my turn.
+The software shall estimate a time of the queue and present it to the 
+customer 
+The software shall allow cancelations to customers
+The software shall send a notification to customers when their position 
+is almost ready to be served.
 
 As a bank clerk
 I want to be able to skip customers that don't show up
 so that I don't have to wait and can move on to the next customer.
 
+The system shall show the current customer to the bank clerk
+The system shall provide a cancel or skip button to the bank clerk
+The system shall provide a new customer to a bank clerk after skipping 
+one
+
 As a bank customer
 I want to be able see a banker imedietly for security issues
 so that I can solve critical problems quickly.
 
+The system shall allow customers to request a emergancy position
+The system shall present the issue to a bank clerk to determine if it's 
+urgernt
+The system shall reshuffle the queue to provide a better position to a 
+customer with a genuine emergancy
+
 As a bank clerk
 I want to be able to stop reciving customers from the queue
 so that I can go on break or finish my shift.
+
+
 
