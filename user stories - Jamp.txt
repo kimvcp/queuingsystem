@@ -2,13 +2,28 @@ as a customer
 - I don't want to get a queue and wait in the Bank.
 so I can to go to another place and back when it my queue.
 
+   requirements
+    - the product shall show the queue and estimate the time.
+    - the product shall send notification to a customer.
+    - the product shall update the queue real-time.
+
+as a employee
+- I can see who is queuing now, people is in the queue or not.
+so I will send a notification to customer when it nearly his queue.
+
+   requirements
+    - the product shall show a name of customer who is queuing.
+    - the product shall send notification to a customer.
+    - the product shall add/remove a queue.
+
+as a customer
 - I want to get a queue outside the Bank.
 so I can go to the bank without waiting.
 
-as a employee
-- I want to see who is queuing now, people is in the queue or not.
-so I will send a notification to customer when it nearly his queue.
-
+     requirements
+    - the product shall show all the queue.
+    - the product shall be usable outside the Bank. 
+    - the product shall estimate the waiting time.
 
 
 
