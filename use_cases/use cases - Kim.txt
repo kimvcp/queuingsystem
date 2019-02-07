@@ -1,0 +1,31 @@
+As a developer
+I want to be able to fix the bug of my application without affecting the master branch,
+So that if it fails to be fixed, the deployable application still safe.
+
+(Branching)
+As a developer
+I want to be able to create a hotfix branch,
+So that I have my space to test and fix the bugs locally.
+
+(Pushing)
+As a developer
+I want to be able to push my hotfix branch when my work is done,
+So that I can have my branch in the repository for a pull request.
+
+(Merging)
+As a developer
+I want to be able to notify other team members using the pull request,
+So that other team members can see, accept, and merge my branch to the master branch.
+
+Use Case - Fix bugs
+step 1: Developer find a reason and solution to your bug.
+step 2: Developer creates a new hotfix branch in your repository.
+step 3: Developer fixes the bug of the application, adds, commits, and pushes the hotfix branch to the repository. 
+step 4: Developer open pull request in Github.
+step 5: Developer check whether if the system shows conflicts or not. 
+    step 5a: If the system shows conflicts, then the developer has to solve them first and notify other members that it is ready to be merged.
+    step 5b: If the system doesn't, then developer waits for other team members to see and comment about work.
+step 6: Other Developer accept the pull request and merge to master.
+
+
+
