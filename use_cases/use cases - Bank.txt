@@ -1,0 +1,30 @@
+(BRANCHING)
+As a developer
+I want to be able to work on a project feature without confronting code conflicts too frequent.
+So that I could work freely with less interuption.
+
+Instruction:
+
+1. Create your own branch
+    git branch BRANCHNAME
+2. Move to your branch
+    git checkout BRANCHNAME
+3. Work freely as you wish
+
+(GRAPH)
+As a developer
+I want to see commit history and see code changes in each commit.
+So that when I accidentally delete the code it could be restore in the history.
+
+This can be solve easily because github stores all commit history in a tree branch.
+The command is "git log".
+There are some modifications for the command such as: --graph, --oneline, --decorate.
+
+(PULLING)
+As a developer
+I want to make my code up to date with the master branch.
+So that when I push the code there wouldn't be any conflicts.
+
+This can be easily solve because there is a command that handle this.
+The command is "git pull".
+Local git will pull the latest code from the online git to replace the local one.
