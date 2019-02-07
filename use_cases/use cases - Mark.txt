@@ -1,7 +1,9 @@
 As a developer
 I want to be able to work on my machine locally
-so that when I make changes for testing they will not affect everyone 
-else.
+so that when I make changes for testing they will not affect everyone else.
+
+Primary Actor: Developer
+Secondary Actor: N/A
 
 NF1: User selects the repo to clone to machine
 NF2: Repo clones to machine sucessfully
@@ -12,11 +14,17 @@ NF2: Repo clones to machine sucessfully
 		AF2.b.1: System cancels cloning and removes files
 		EF2.b.2: Notify User of issue
 		EF2.b.3: Return to NF1
-	
+
+Success Condition: All the files from the repo are cloned to the devlopers machine.
+Failure Condition: The repo wasn't completely cloned or failed to clone to the machine.
+
 
 As a developer
 I want to be able to combine my work together and show conflicts
 so that I dont have to manually scan all lines of code.
+
+Primary Actor: Developer
+Secondary Actor: N/A
 
 NF1: User selects the branch they want to mearge
 NF2: User mearges the branch to the 2nd branch
@@ -31,3 +39,9 @@ NF3: System mearges the branches sucessfully
 	EF3.e: Git closes unexpectedly 
 		EF3.e.1: Changes are not made
 		EF3.e.2: Return to NF2
+
+Success Condition: Branches are mearged with the correct changes.
+Failure Condition: The branches are not mearged.
+
+
+
