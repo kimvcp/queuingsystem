@@ -1,0 +1,50 @@
+
+As a developper
+
+I can create many branches to separate my works from the others contributors 
+
+So that my changes do not create conflicts and cause troubles
+
+use cases:
+
+1. you realize that you have to have a special branch anyway, 
+
+2. you might as well have many and one of the branches you do some experimental work on 
+
+   and one of the branches you do maintenance on.
+
+3.you treat the default "master" branch as production and need to create another one for 
+
+  developpement
+
+4. To create a new branch, named develop, you type the following:
+
+   git checkout -b develop
+
+5. Assuming you don't yet have a branch named "develop", the output would be as follows:
+
+   Switched to a new branch 'develop'
+
+6. In the case of a branch by that name already existing, Git would tell you:
+
+    A branch named 'develop' already exists.
+
+7. You can switch back and forth between your two branches, by using the git checkout command:
+
+   git checkout master
+
+   or
+
+   git checkout develop
+
+8. Assuming the branch that you are trying to switch to exists, you'll see output similiar to the following:
+
+   Switched to branch 'master'
+
+9. If you try to switch to a branch that doesn't exist, such as
+
+   git checkout branch2 , Git will tell you:
+
+   'branch2' did not match any file(s) known to git.
+
+
