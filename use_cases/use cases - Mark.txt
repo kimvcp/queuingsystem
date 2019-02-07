@@ -44,4 +44,25 @@ Success Condition: Branches are mearged with the correct changes.
 Failure Condition: The branches are not mearged.
 
 
+Primary Actor: Developer
+Secondary Actor: N/A
 
+As a developer
+I want to check my code is up to date
+so that I don't implement changes that are already implemented.
+
+NF1: User Pulls from the working branch
+NF2: The code on the local machine is up to date.
+NF3: There's no conflicts and the pull is successful
+	AF3.a: The mearge has conflicts
+	AF3.b: System notifys user of conflicts
+	AF3.c: User resolves conflict by modifying code
+		AF3.c.2: Return to NF3
+	AF3.d: User doesn't resolve conflicts and cancels
+		EF3.d.1: Return to NF1
+	EF3.e: Git closes unexpectedly 
+		EF3.e.1: Changes are not made
+		EF3.e.2: Return to NF1
+
+Success Condition: The code on the developers machine is updated or they're informed there was no changes.
+Failure Condition: The code was out of date and failed to updated.
