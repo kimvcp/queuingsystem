@@ -1,0 +1,33 @@
+As a developer
+I want to be able to work on my machine locally
+so that when I make changes for testing they will not affect everyone 
+else.
+
+NF1: User selects the repo to clone to machine
+NF2: Repo clones to machine sucessfully
+	AF2.a: Cloning is interuppted by the user
+		AF2.a.1: System cancels cloning and removes files
+		AF2.a.2: Return to NF1
+	EF2.b: Machine doesn't have enough space
+		AF2.b.1: System cancels cloning and removes files
+		EF2.b.2: Notify User of issue
+		EF2.b.3: Return to NF1
+	
+
+As a developer
+I want to be able to combine my work together and show conflicts
+so that I dont have to manually scan all lines of code.
+
+NF1: User selects the branch they want to mearge
+NF2: User mearges the branch to the 2nd branch
+NF3: System mearges the branches sucessfully
+	AF3.a: The mearge has conflicts
+	AF3.b: System notifys user of conflicts
+	AF3.c: User resolves conflict by modifying code
+		AF3.c.1: User commits changes
+		AF3.c.2: Return to NF3
+	AF3.d: User doesn't resolve conflicts and cancels
+		EF3.d.1: Return to NF2
+	EF3.e: Git closes unexpectedly 
+		EF3.e.1: Changes are not made
+		EF3.e.2: Return to NF2
