@@ -1,0 +1,27 @@
+As a developer
+I want to work many feature in the same time without related to another.
+So that if I have many branch, I can do a different feature in any branch.
+
+(Branching)
+As a developer
+I want to create a new branch so that I can do more than 1 work.
+
+(Pushing)
+As a developer
+I want to push my code to the repository.
+so that if I push it to each branch, it will not effect to other feature.
+
+(Merging)
+As a developer
+I want to combine all feature together
+so that if it has a conflicts, I can know and fix it before merge.
+
+Use case - work many feature
+step1: check that your application has how many feature.
+step2: create a new branch for any feature in your repository.
+step3: finished your work on each branch and push it to the repo.
+step4: merge all feature branch into master branch.
+
+   
+
+
